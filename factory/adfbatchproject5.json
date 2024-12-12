@@ -1,0 +1,9 @@
+{
+	"name": "adfbatchproject5",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "036eea25-5eab-4489-8c2c-f5c5a00c3a5d",
+		"tenantId": "f9c5f580-ca41-4b95-9966-16f196d8a943"
+	}
+}
