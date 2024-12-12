@@ -1,0 +1,12 @@
+{
+	"name": "DS_REST_TO_PQT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_TO_PQT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "DS_SINK_REST_TO_PQT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SINK_REST_TO_PQT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "customer",
+				"fileSystem": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
