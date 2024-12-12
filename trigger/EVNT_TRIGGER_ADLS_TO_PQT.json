@@ -1,0 +1,24 @@
+{
+	"name": "EVNT_TRIGGER_ADLS_TO_PQT",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_ADLS_TO_PQT",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/58c558ed-5c18-4205-9460-8b0e93eb476d/resourceGroups/rg_batch5_mraecom/providers/Microsoft.Storage/storageAccounts/adlsrawecom005",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
